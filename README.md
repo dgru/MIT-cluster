@@ -1,5 +1,5 @@
 # strawberry-cluster
-# This repository contains files and information related to using MIT cluster e.g. uploading, running jobs, etc.
+This repository contains files and information related to using MIT cluster e.g. uploading, running jobs, etc.
 
 
 # Contents:
