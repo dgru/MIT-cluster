@@ -3,5 +3,5 @@
 
 
 # Contents:
-# "submit_muscle_standard.sh" is a generic file submission script I use for running MUSCLE.
-# "submit_raxml_standard.sh" is a generic file submission script I use for running RAxML with bootstraps.
+- "submit_muscle_standard.sh" is a generic file submission script I use for running MUSCLE.
+- "submit_raxml_standard.sh" is a generic file submission script I use for running RAxML with bootstraps.
