@@ -26,3 +26,4 @@ raxmlHPC-PTHREADS-AVX -T 20 -f a -m PROTGAMMALGF -p 12345 -x 12345 -#10 -n DMS_t
 # to run this job submission script type "sbatch submit_raxml.sh" (or whatever you name the file)
 # tail -f raxml_DSG.out 				# run this line outside of script from cluster to look at output of script while its running
 # squeue -u dgruen 					# type this line to check on if your jobs are running or waiting to run on the queue (use your username)
+# additional documentation for RAxML on GitHub: https://github.com/stamatak/standard-RAxML
