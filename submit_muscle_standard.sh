@@ -1,6 +1,6 @@
 #!/bin/bash						# line interpreter, better than using sh, some slight nuance
 
-#SLURM directives go here ("sbatch___" defines setup options, is not just a comment), see "man sbatch" for additional options
+#'SLURM directives' go here ("sbatch___" defines setup options, is not just a comment), see "man sbatch" for additional options
 #SBATCH -p sched_mit_g4nier				# partition (queue) (Fournier Lab is "g4nier")
 #SBATCH -N 1  						# machines
 #SBATCH -n 1 						# of tasks 
