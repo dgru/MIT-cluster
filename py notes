@@ -1,0 +1,18 @@
+To run FEAST_ntw.py
+CD to directory (e.g.clusterlocal)
+
+FEAST_ntw.py /path/to/directory example.fasta -si
+
+example:
+python FEAST_ntw.py /Users/DG/Desktop/clusterlocal AckA_fasta.txt -si
+
+After using FEAST (bc loss of GI numbers from NCBI)
+
+Re. Reg Ex
+In Sublime Text:
+	command shift f
+	find: (>)(.{249})(.*)
+	where: <current file>
+	replace: \1\2
+	keeps only 250 characters
+	
