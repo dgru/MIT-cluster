@@ -1,4 +1,4 @@
-# strawberry-cluster
+# cluster
 This repository contains files and information related to using the MIT engaging cluster e.g. uploading, running jobs, etc. If you are new to this repository or to using this cluster, please start by reading the "engaging-info" file for general documentation. Contact me at dgruen@mit.edu with questions & feedback.
 
 
