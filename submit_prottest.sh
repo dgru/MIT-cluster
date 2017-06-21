@@ -16,6 +16,8 @@ module add engaging/prottest/3.4.2				# Prottest, Determine the best fitting ami
 
 # launch code  (insert science here)
 cd $PROTTEST_HOME	                                              # have to CD to prottest, not loaded
-./prottest3 -i /home/dgruen/Sh_mtaC_700archhits_Muscle.fasta    # -i for input alignment file; make sure you navigate to path
+./prottest3 -i /home/dgruen/Sh_mtaC_700archhits_Muscle.fasta -+F T -+I T -+I+G T -+G T
+	# -i for input alignment file; make sure you navigate to path
+	# [addon]: T/F (true or false) see manual pg 5
 
 # to submit: sbatch submit_prottest.sh
